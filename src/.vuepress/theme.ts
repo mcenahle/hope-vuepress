@@ -27,7 +27,7 @@ export default hopeTheme({
     sidebar,
 
     // 页脚
-    footer: "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">沪ICP备2025116360号-2</a>、<a href=\"https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31015102000201\" target=\"_blank\"><img src=\"https://mcenahle.cn/resources/police.png\" style=\"height:14px\"> 沪公网安备31015102000201号</a>",
+    footer: "备案信息：<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">沪ICP备2025116360号-2</a>、<a href=\"https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31015102000201\" target=\"_blank\"><img src=\"https://mcenahle.cn/resources/police.png\" style=\"height:14px\"> 沪公网安备31015102000201号</a>",
     displayFooter: true,
 
     // 加密配置
