@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "Use Vuepress Hope theme.",
+  footer: "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">沪ICP备2025116360号-2</a>、<a href=\"https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31015102000201\" target=\"_blank\"><img src=\"https://mcenahle.cn/resources/police.png\" style=\"height:14px\"> 沪公网安备31015102000201号</a>",
   displayFooter: true,
 
   // 加密配置
@@ -121,13 +121,13 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+    // comment: {
+    //  provider: "Giscus",
+    //  repo: "vuepress-theme-hope/giscus-discussions",
+    //  repoId: "R_kgDOG_Pt2A",
+    //  category: "Announcements",
+    //  categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
 
     components: {
       components: ["Badge", "VPCard"],
