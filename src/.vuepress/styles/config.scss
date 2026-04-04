@@ -13,8 +13,6 @@ $theme-color: (
   font-style: normal;
 }
 
-h1,
-.vp-portfolio-info,
-body {
-  font-family: 'SourceHanSansCN-Regular' !important;
+:root {
+  --vp-font: 'SourceHanSansCN-Regular' !important;
 }
