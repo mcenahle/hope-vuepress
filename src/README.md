@@ -23,4 +23,4 @@ footer: 备案信息：<a href="https://beian.miit.gov.cn/" target="_blank">沪I
 
 > [!important]
 > 本网站不是 [mcenahle.cn](https://mcenahle.cn)，而是 ==www==.mcenahle.cn。
-> [mcenahle.cn](https://mcenahle.cn) 以 [Bootstrap 5](https://getbootstrap.com) 构建；本网站使用 [Vuepress](https://vuepress.vuejs.org) 的 [Hope 主题](https://theme-hope.vuejs.press/zh) 构建。
+> [mcenahle.cn](https://mcenahle.cn) 以 [Bootstrap 5](https://getbootstrap.com) 构建；本网站使用 [Vuepress](https://vuepress.vuejs.org) 的 [Hope 主题](https://theme-hope.vuejs.press/zh/) 构建。
