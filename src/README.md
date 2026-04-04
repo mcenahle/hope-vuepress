@@ -1,0 +1,21 @@
+---
+home: true
+icon: house
+title: www.mcenahle.cn
+heroImage: https://mcenahle.cn/logo.png
+bgImage: /images/MVIMG_20260404_134059.jpg
+bgImageDark: /images/MVIMG_20260404_134059.jpg
+bgImageStyle:
+  background-attachment: fixed
+heroText: www.mcenahle.cn
+tagline: 我的个人网站。
+actions:
+  - text: 关于我
+    icon: lightbulb
+    link: ./me
+    type: primary
+copyright: Copyright © 2026 mcenahle
+footer: <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2025116360号-2</a>、<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31015102000201" target="_blank">沪公网安备31015102000201号</a>
+---
+
+这是我的 `www` 网页。这个网站是使用了 [Vuepress](https://vuepress.vuejs.org) 的 [Hope 主题](https://theme-hope.vuejs.press/zh) 的网站。
