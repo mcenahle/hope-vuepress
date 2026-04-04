@@ -5,3 +5,15 @@ $theme-color: (
         #f26d6d,
         #e3b20f
 );
+
+@font-face {
+  font-family: 'SourceHanSansCN-Regular';
+  src: url('https://www.mcenahle.org.cn/fonts/SourceHanSansCN-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+body {
+  font-family: 'SourceHanSansCN-Regular' !important;
+}
