@@ -2,7 +2,7 @@
 home: true
 portfolio: true
 title: 关于我
-icon: house
+icon: iconamoon:profile
 welcome: 👋 你好，我是
 name: Mcenahle
 avatar: https://mcenahle.cn/logo.png
@@ -17,3 +17,5 @@ footer: true
 
 ## 关于我
 目前就读于 [一所专科](https://www.shfilmart.com)，之后升本科：[上海师范大学](https://www.shnu.edu.cn)。
+
+我是一个对人友好的男生，但我比较内向。
