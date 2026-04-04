@@ -8,12 +8,13 @@ $theme-color: (
 
 @font-face {
   font-family: 'SourceHanSansCN-Regular';
-  src: url('https://www.mcenahle.org.cn/fonts/SourceHanSansCN-Regular.woff2') format('woff2');
+  src: url('/fonts/SourceHanSansCN-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 h1,
+.vp-portfolio-info,
 body {
   font-family: 'SourceHanSansCN-Regular' !important;
 }
