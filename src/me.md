@@ -12,5 +12,8 @@ titles:
   - 把想法变成网页的人
   - 偶尔写点东西记录生活
 
-footer: false
+footer: true
 ---
+
+## 关于我
+目前就读于 [一所专科](https://www.shfilmart.com)，之后升本科：[上海师范大学](https://www.shnu.edu.cn)。
