@@ -37,6 +37,7 @@ export default hopeTheme({
                 hint: "Password: 1234",
                 password: "1234",
             },
+            // "/thoughts/": ["mcenahlethoughts-page"],
         },
     },
 
