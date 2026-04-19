@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "www.mcenahle.cn",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "mcenahle.cn",
+  description: "个人成长记录",
 
   theme,
 

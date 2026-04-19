@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-    hostname: "https://www.mcenahle.cn",
+    hostname: "https://mcenahle.cn",
     fullscreen: true,
     print: true,
     darkmode: "switch",
@@ -14,7 +14,7 @@ export default hopeTheme({
         url: "",
     },
 
-    logo: "https://mcenahle.cn/logo.png",
+    logo: "/logo.png",
 
     repo: "mcenahle/hope-vuepress",
 
