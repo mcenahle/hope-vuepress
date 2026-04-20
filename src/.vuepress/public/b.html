@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>B 站升级进度自动计算查询</title>
+    <link rel="stylesheet" href="https://www.mcenahle.org.cn/bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.mcenahle.org.cn/bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://www.mcenahle.org.cn/jquery/jquery-3.7.1.min.js"></script>
+    <script src="https://www.mcenahle.org.cn/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+
+    <style>
+        @font-face {
+            font-family: 'PingFangSC-Regular';
+            src: url('https://www.mcenahle.org.cn/resources/PingFangSC-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            src: url('https://www.mcenahle.org.cn/resources/Inter-Regular.woff2') format('woff2');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            src: url('https://www.mcenahle.org.cn/resources/Inter-Bold.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            src: url('https://www.mcenahle.org.cn/resources/Inter-Italic.woff2') format('woff2');
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            src: url('https://www.mcenahle.org.cn/resources/Inter-BoldItalic.woff2') format('woff2');
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        body {
+            background: #f2f2f2;
+            font-family: -apple-system,
+            BlinkMacSystemFont,
+            "SF Pro Text",
+            "SF Pro Display",
+            PingFangSC,
+            Inter,
+            "Helvetica Neue",
+            Helvetica,
+            Arial,
+            sans-serif;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            width: 100vw;
+            height: 100vh;
+            /*background: linear-gradient(90deg, #a8d8ff 0%, #8ff9ff 100%);*/
+            background-image: url('https://upload.mcenahle.cn/bing-wallpaper-redirect.php');
+            /*background-image: url('/resources/MVIMG_20260131_144504.00_00_00_00.Still001.jpg');*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+            opacity: 0.2;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .panel {
+            margin-top: 60px;
+        }
+
+        ::selection {
+            background: #000000;
+            color: #fff;
+            text-shadow: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading text-center">
+                    <h3 class="panel-title">B 站升级进度自动计算查询</h3>
+                </div>
+                <div class="panel-body">
+
+                    <div class="form-group">
+                        <label>选择日期</label>
+                        <input type="date" id="queryDate" class="form-control"
+                               min="2026-04-15" max="2026-04-25">
+                    </div>
+
+                    <button class="btn btn-success btn-block" onclick="calculateData()">
+                        查询
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 结果模态框 -->
+<div class="modal fade" id="resultModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header bg-primary">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">📊 查询结果</h4>
+            </div>
+
+            <div class="modal-body">
+                <p><strong>查询日期：</strong><span id="modalDate"></span></p>
+                <hr>
+                <p><strong>经验：</strong><span id="modalScore"></span>（满级：28800）</p>
+                <p><strong>剩余经验：</strong><span id="modalLeftScore"></span></p>
+                <p><strong>硬币数：</strong><span id="modalCoin"></span></p>
+                <p><strong>升级剩余天数：</strong><span id="modalDays"></span></p>
+                <hr>
+                <p><strong>Lv6 进度百分比：</strong><span id="modalPercent"></span></p>
+
+                <!-- 进度条 -->
+                <div class="progress">
+                    <div id="progressBar"
+                         class="progress-bar progress-bar-success"
+                         role="progressbar"
+                         style="width:0%">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function calculateData() {
+
+        var inputDate = document.getElementById("queryDate").value;
+
+        if (!inputDate) {
+            alert("请选择日期");
+            return;
+        }
+
+        var startDate = new Date("2026-04-15");
+        var endDate = new Date("2026-04-25");
+        var currentDate = new Date(inputDate);
+
+        if (currentDate < startDate || currentDate > endDate) {
+            alert("日期必须在 2026-04-15 到 2026-04-25 之间");
+            return;
+        }
+
+        // 计算天数差
+        var diffDays = Math.floor((currentDate - startDate) / (1000 * 60 * 60 * 24));
+
+        // 自动计算
+        var score = 28055 + diffDays * 75;
+        var coin = 1489 - diffDays * 5;
+        var daysLeft = 10 - diffDays;
+        var leftScore = 28800 - score;
+
+        // 百分比计算
+        var percent = (score / 28800 * 100).toFixed(2);
+
+        // 填充模态框
+        $("#modalDate").text(inputDate);
+        $("#modalScore").text(score);
+        $("#modalLeftScore").text(leftScore);
+        $("#modalCoin").text(coin);
+        $("#modalDays").text(daysLeft);
+        $("#modalPercent").text(percent + "%");
+
+        // 设置进度条
+        $("#progressBar")
+                .css("width", percent + "%")
+                .text(percent + "%");
+
+        // 显示模态框
+        $("#resultModal").modal("show");
+    }
+
+</script>
+
+</body>
+</html>

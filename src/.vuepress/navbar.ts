@@ -5,28 +5,29 @@ export default navbar([
   "/me",
   "/my/",
   "coding-standards/",
-  {
-    text: "指南",
-    icon: "lightbulb",
-    prefix: "/guide/",
+  /* {
+    text: "代码规范",
+    icon: "material-symbols:code",
+    prefix: "/coding-standards/",
     children: [
       {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
+        text: "Github 相关",
+        icon: "mdi:github",
+        prefix: "/coding-standards/",
+        children: ["github-commit-signature", "write-commit-message"],
       },
       {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
-      },
+        text: "编程语言相关",
+        icon: "akar-icons:python-fill",
+        prefix: "/",
+        children: ["https://peps.python.org/pep-0008/", "https://ecma-international.org/publications-and-standards/standards/ecma-262/"],
+      }
     ],
-  },
+  }, */
   {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "之前的主页网站",
+    icon: "material-symbols:archive",
+    link: "https://archive.mcenahle.cn/",
   },
+  "/friendslink",
 ]);
