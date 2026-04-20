@@ -4,6 +4,7 @@ export default navbar([
   "/",
   "/me",
   "/my/",
+  "coding-standards",
   {
     text: "指南",
     icon: "lightbulb",
