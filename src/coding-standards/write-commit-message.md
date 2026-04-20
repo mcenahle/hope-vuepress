@@ -20,14 +20,14 @@ order: 2
 |ci|CI/CD|
 |chore|其它项目|
 
-::mingcute:check-fill:: 新增 example 页面（path/to/example）
+::mingcute:close-fill:: 新增 example 页面（path/to/example）
 
-::mingcute:close-fill:: docs: 新增 example 页面（path/to/example）
+::mingcute:check-fill:: docs: 新增 example 页面（path/to/example）
 
-::mingcute:check-fill:: 修复 check.yml 中的 Node.js 版本问题
+::mingcute:close-fill:: 修复 check.yml 中的 Node.js 版本问题
 
-::mingcute:close-fill:: ci: 修复 check.yml 中的 Node.js 版本问题
+::mingcute:check-fill:: ci: 修复 check.yml 中的 Node.js 版本问题
 
-::mingcute:check-fill:: 移除自定义背景色
+::mingcute:close-fill:: 移除自定义背景色
 
-::mingcute:close-fill:: style: 移除自定义背景色
+::mingcute:check-fill:: style: 移除自定义背景色
