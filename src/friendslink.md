@@ -5,7 +5,7 @@ footer: true
 ---
 
 ## 其它网站
-- [www.mcenahle.cn](https://www.mcenahle.cn)
+- [文档网站](https://d.mcenahle.cn)
 - [博客网站（梅之夏）](https://blog.mcenahle.org.cn)
 
 ## 医学生的网站
