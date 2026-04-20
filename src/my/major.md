@@ -1,5 +1,6 @@
 ---
 title: 专业
+date: 2026-04-05
 icon: hugeicons:study-lamp
 order: 1
 ---
