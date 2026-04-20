@@ -5,7 +5,7 @@ title: 关于我
 icon: iconamoon:profile
 welcome: 👋 你好，我是
 name: Mcenahle
-avatar: https://mcenahle.cn/boy.png
+avatar: /images/boy.png
 
 titles:
   - 在代码世界里漫游的人
