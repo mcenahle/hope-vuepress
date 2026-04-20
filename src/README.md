@@ -2,9 +2,9 @@
 home: true
 icon: house
 title: 首页
-heroImage: /logo.png
-bgImage: /images/MVIMG_20260404_134059.jpg
-bgImageDark: /images/MVIMG_20260404_134059.jpg
+heroImage: 
+bgImage: /images/渐变背景.jpg
+bgImageDark: /images/渐变背景.jpg
 bgImageStyle:
   background-attachment: fixed
 heroText: mcenahle.cn
