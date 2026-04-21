@@ -9,6 +9,8 @@ export default hopeTheme({
     print: true,
     darkmode: "switch",
 
+    navbarAutoHide: "none",
+
     author: {
         name: "mcenahle",
         url: "",
