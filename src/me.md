@@ -5,7 +5,7 @@ title: 关于我
 icon: iconamoon:profile
 welcome: 👋 你好，我是
 name: Mcenahle
-avatar: /images/boy.png
+avatar: /images/new-boy.png
 
 titles:
   - 在代码世界里漫游的人
@@ -18,4 +18,4 @@ footer: true
 ## 关于我
 目前就读于 [一所专科](https://www.shfilmart.com)，之后升本科：[上海师范大学](https://www.shnu.edu.cn)。
 
-我是一个对人友好的男生，性格比较内向。但我很喜欢观察别人的心情。
+平时比较安静，会不自觉地注意到别人的状态。不过在熟悉的人面前，也会放开一些。
