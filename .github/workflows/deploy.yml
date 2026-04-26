@@ -31,4 +31,4 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: ".vuepress/dist/*"
-          target: "/www/wwwroot/mcenahle.cn"
+          target: "/www/wwwroot/mcenahle.cn/"
