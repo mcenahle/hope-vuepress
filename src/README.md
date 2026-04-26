@@ -7,7 +7,7 @@ bgImage: /images/渐变背景.jpg
 bgImageDark: /images/渐变背景.jpg
 bgImageStyle:
   background-attachment: fixed
-heroText: mcenahle.cn
+heroText: mcenahle.com
 tagline: 个人成长记录。
 actions:
   - text: 关于我
@@ -15,7 +15,7 @@ actions:
     link: ./me
     type: primary
 copyright: Copyright © 2026 mcenahle
-footer: 备案信息：<a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2025116360号-2</a>、<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31015102000201" target="_blank"><img src="/images/police.png" style="height:14px"> 沪公网安备31015102000201号</a>
+footer: mcenahle.com
 ---
 
 这是我的个人主页。

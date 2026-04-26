@@ -6,7 +6,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "mcenahle.cn",
+  title: "mcenahle.com",
   description: "个人成长记录",
 
   theme,

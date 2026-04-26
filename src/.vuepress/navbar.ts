@@ -25,9 +25,9 @@ export default navbar([
     ],
   }, */
   {
-    text: "之前的主页网站",
-    icon: "material-symbols:archive",
-    link: "https://archive.mcenahle.cn/",
+    text: "个人成长记录",
+    icon: "mingcute:web-fill",
+    link: "https://mcenahle.cn/",
   },
   "/friendslink",
 ]);
