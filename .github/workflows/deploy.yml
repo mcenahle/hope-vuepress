@@ -40,3 +40,6 @@ jobs:
           source: "src/.vuepress/dist/*"
           target: "/www/wwwroot/mcenahle.cn/"
           strip_components: 3
+          timeout: 120s
+          command_timeout: 20m
+          rm: true
