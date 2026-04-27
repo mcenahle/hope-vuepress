@@ -18,6 +18,7 @@ export default sidebar({
       link: "coding-standards/",
       children: ["github-commit-signature", "write-commit-message"],
     },
+    "/math/",
     {
       text: "上海师范大学",
       icon: "mdi:university",

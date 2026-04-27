@@ -24,6 +24,7 @@ export default navbar([
       }
     ],
   }, */
+    "/math/",
   {
     text: "个人成长记录",
     icon: "mingcute:web-fill",
