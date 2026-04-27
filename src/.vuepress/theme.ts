@@ -93,7 +93,7 @@ export default hopeTheme({
             // type: "katex",
             //   // 或者安装 @mathjax/src
             type: "mathjax",
-            output: "chtml",
+            // output: "chtml",  取消注释以使用 chtml
         },
 
         // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
