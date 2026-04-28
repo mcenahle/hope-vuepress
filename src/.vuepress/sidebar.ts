@@ -23,7 +23,7 @@ export default sidebar({
       icon: "boxicons:math",
       prefix: "math/",
       link: "math/",
-      children: ["2026-04-27-exercise", "2026-04-27-study"],
+      children: ["2026-04-27-exercise", "2026-04-27-study", "2026-04-28-study"],
     },
     {
       text: "上海师范大学",
