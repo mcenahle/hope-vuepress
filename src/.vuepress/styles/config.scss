@@ -7,7 +7,7 @@ $theme-color: (
         #e3b20f
 );
 
-@font-face {
+/* @font-face {
   font-family: 'PingFangSC-Regular';
   src: url('https://www.mcenahle.org.cn/resources/PingFangSC-Regular.woff2') format('woff2');
   font-weight: normal;
@@ -62,6 +62,26 @@ body,
   Helvetica,
   Arial,
   sans-serif;
+} */
+
+@font-face {
+  font-family: 'SongtiSC';
+  src: url('https://mcenahle.cn/cert/SongtiSC-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SongtiSC';
+  src: url('https://mcenahle.cn/cert/SongtiSC-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1,
+body,
+.vp-portfolio-info {
+  font-family: "SongtiSC", serif !important;
 }
 
 code {
