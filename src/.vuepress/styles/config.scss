@@ -71,10 +71,38 @@ body,
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('https://www.mcenahle.org.cn/resources/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://www.mcenahle.org.cn/resources/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://www.mcenahle.org.cn/resources/Inter-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://www.mcenahle.org.cn/resources/Inter-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
 h1,
 body,
 .vp-portfolio-info {
-  font-family: "SourceHanSansCN-Regular" !important;
+  font-family: "Inter", "SourceHanSansCN-Regular" !important;
 }
 
 code {
