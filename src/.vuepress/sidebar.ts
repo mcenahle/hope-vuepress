@@ -31,7 +31,7 @@ export default sidebar({
             prefix: "",
             collapsible: true,
             expanded: true,
-            children: ["2026-04-27-exercise", "2026-04-27-study", "2026-04-28-study"],
+            children: ["2026-04-27-exercise", "2026-04-27-study", "2026-04-28-study", "2026-04-29-study"],
         },
     ],
 });
