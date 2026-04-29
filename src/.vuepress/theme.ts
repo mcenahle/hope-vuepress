@@ -8,6 +8,7 @@ export default hopeTheme({
     fullscreen: true,
     print: true,
     darkmode: "switch",
+    contributors: false,
 
     navbarAutoHide: "none",
 
