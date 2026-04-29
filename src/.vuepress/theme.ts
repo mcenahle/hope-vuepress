@@ -146,6 +146,20 @@ export default hopeTheme({
             assets: "iconify",
         },
 
+        /* docsearch: {
+            // appId = "";
+            // apiKey = "";
+            // indexName = "";
+        }, */
+
+        /* search: {
+            locales: {
+                '/': {
+                    placeholder: '搜索',
+                }
+            },
+        }, */
+
         copyCode: {
             showInMobile: true,
         },
