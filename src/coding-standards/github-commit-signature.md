@@ -10,7 +10,7 @@ order: 1
 
 自 2026 年 4 月 16 日起，本人启用 ::mdi:github:: GitHub 提交签名机制，用于标识提交的来源与完整性（[Learn about vigilant mode](https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits)）。
 
-当提交显示为 Verified 且签名来源为本人密钥时，表示该提交由持有对应私钥的一方生成，且内容未被篡改。例如：
+当提交显示为 Verified 且签名来源为本人密钥时，表示该提交由持有对应私钥的一方生成，且内容未被篡改。[例如](https://github.com/mcenahle/plume-vuepress/commits/main/)：
 
 ![GitHub 签名的提交](/images/LAPTOP-QBI12I8_mcenahle_20260416_12-48-22.jpg "GitHub 签名的提交")
 
