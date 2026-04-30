@@ -147,12 +147,6 @@ export default hopeTheme({
             assets: "iconify",
         },
 
-        /* docsearch: {
-            // appId = "";
-            // apiKey = "";
-            // indexName = "";
-        }, */
-
         /* search: {
             locales: {
                 '/': {
@@ -160,6 +154,10 @@ export default hopeTheme({
                 }
             },
         }, */
+
+        slimsearch: {
+            indexContent: true,
+        },
 
         copyCode: {
             showInMobile: true,
