@@ -147,18 +147,6 @@ export default hopeTheme({
             assets: "iconify",
         },
 
-        /* search: {
-            locales: {
-                '/': {
-                    placeholder: '搜索',
-                }
-            },
-        }, */
-
-        slimsearch: {
-            indexContent: true,
-        },
-
         copyCode: {
             showInMobile: true,
         },
