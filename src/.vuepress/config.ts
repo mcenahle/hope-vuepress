@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
-import {viteBundler} from '@vuepress/bundler-vite'
+import {viteBundler} from '@vuepress/bundler-vite';
+import * as fs from 'fs'
 
 import theme from "./theme.js";
 
@@ -15,7 +16,12 @@ export default defineUserConfig({
   bundler: viteBundler({
     viteOptions: {
       server: {
-        port: 80,
+        port: 443,
+        https: {
+          key: fs.readFileSync('./cert/mcenahle.edu.cn-key.pem'),
+          cert: fs.readFileSync('./cert/mcenahle.edu.cn.pem'),
+        },
+        host: '0.0.0.0',
         allowedHosts: ['mcenahle.edu.cn']
       }
     }
