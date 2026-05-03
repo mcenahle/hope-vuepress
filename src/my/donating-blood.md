@@ -1,7 +1,7 @@
 ---
 title: 献血
 date: 2026-05-03
-icon: mdi:blood-check
+icon: boxicons:donate-blood-filled
 order: 2
 ---
 
