@@ -22,8 +22,8 @@ export default defineUserConfig({
         ...(isDev
             ? {
               https: {
-                key: fs.readFileSync('./cert/mcenahle.edu.cn-key.pem'),
-                cert: fs.readFileSync('./cert/mcenahle.edu.cn.pem'),
+                key: fs.readFileSync('./cert/mcenahle.edu.cn+2-key.pem'),
+                cert: fs.readFileSync('./cert/mcenahle.edu.cn+2.pem'),
               },
             }
             : {}),
