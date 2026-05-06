@@ -15,7 +15,7 @@ actions:
     link: ./me
     type: primary
 copyright: Copyright © 2026 mcenahle
-footer: mcenahle.com
+footer: mcenahle.com | <img src="https://mcenahle.cn/resources/Not%20By%20AI/Written%20By%20Human/_SVG/Written-By-Human-Not-By-AI-Badge-white.svg" alt="Written By Human Badge" width="70">
 ---
 
 这是我的个人主页。
