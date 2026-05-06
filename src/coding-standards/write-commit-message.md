@@ -18,6 +18,7 @@ order: 2
 |style|样式（不影响逻辑）|
 |refactor|重构|
 |ci|CI/CD|
+|revert|回退更改|
 |chore|其它项目|
 
 ::mingcute:close-fill:: 新增 example 页面（path/to/example）
