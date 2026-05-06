@@ -116,3 +116,23 @@ code {
 .vp-decrypt-submit {
   color: white;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('/images/MVIMG_20260429_104404.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0.15;
+
+  filter: blur(8px);
+
+  z-index: 99;
+  pointer-events: none;
+}
