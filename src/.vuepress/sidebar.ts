@@ -34,4 +34,14 @@ export default sidebar({
             children: ["2026-04-27-exercise", "2026-04-27-study", "2026-04-28-study", "2026-04-29-study"],
         },
     ],
+    "/articles/": [
+        {
+            text: "文章",
+            icon: "majesticons:paper-fold",
+            prefix: "",
+            collapsible: true,
+            expanded: true,
+            children: "structure",
+        },
+    ],
 });
