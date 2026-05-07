@@ -27,6 +27,6 @@ icon: carbon:user-profile-alt
 这个网站主要记录我的学习、思考和一些生活片段。
 
 ## 联系我
-Email：首选 [admin@mcenahle.sh.cn](mailto:admin@mcenahle.sh.cn)。次选 [i@mcenahle.cn](mailto:i@mcenahle.cn)。
+Email：首选 [admin@mcenahle.sh.cn](mailto:admin@mcenahle.sh.cn)。次选 [hi@mcenahle.com](mailto:hi@mcenahle.com)。
 
 <Catalog />
