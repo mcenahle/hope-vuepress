@@ -5,14 +5,49 @@ icon: grommet-icons:status-good
 sidebar: false
 ---
 
-| 序号 |                    网站名称                     |                                       运行状态                                       |                                                      部署平台                                                      |                                      上次 commit 日期                                       |                                               上次 ci 状态                                               |
-|:--:|:-------------------------------------------:|:--------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|
-| 1  |       [主站](https://mcenahle.com)[^1]        |      ![在线状态](https://img.shields.io/website?url=https%3A%2F%2Fmcenahle.com)      |      [![Vercel](https://img.shields.io/badge/Vercel-000?logo=vercel)](https://hope-vuepress.vercel.app/)       | ![上次 commit 日期](https://img.shields.io/github/last-commit/mcenahle/hope-vuepress/main)  | ![上次 ci 状态](https://img.shields.io/github/actions/workflow/status/mcenahle/hope-vuepress/check.yml)  |
-| 2  |     [文档网站](https://d.mcenahle.com)[^2]      |     ![在线状态](https://img.shields.io/website?url=https%3A%2F%2Fd.mcenahle.com)     |      [![Vercel](https://img.shields.io/badge/Vercel-000?logo=vercel)](https://plume-vuepress.vercel.app/)      | ![上次 commit 日期](https://img.shields.io/github/last-commit/mcenahle/plume-vuepress/main) | ![上次 ci 状态](https://img.shields.io/github/actions/workflow/status/mcenahle/plume-vuepress/check.yml) |
-| 3  | [作品集网站](https://portfolio.mcenahle.com)[^3] | ![在线状态](https://img.shields.io/website?url=https%3A%2F%2Fportfolio.mcenahle.com) | [![Vercel](https://img.shields.io/badge/Vercel-000?logo=vercel)](https://portfolio-site-virid-rho.vercel.app/) | ![上次 commit 日期](https://img.shields.io/github/last-commit/mcenahle/portfolio-site/main) | ![上次 ci 状态](https://img.shields.io/github/actions/workflow/status/mcenahle/portfolio-site/check.yml) |
+| 序号 |    网站名称    |            运行状态             |                部署平台                 |                上次 commit 日期                |            上次 ci 状态            |
+|:--:|:----------:|:---------------------------:|:-----------------------------------:|:------------------------------------------:|:------------------------------:|
+| 1  |  主站 [^1]   | [![在线状态][status-1]][site-1] | [![Vercel][vercel-badge]][deploy-1] | [![commit][commit-badge-1]][commit-link-1] | [![ci][ci-badge-1]][ci-link-1] |
+| 2  | 文档网站 [^2]  | [![在线状态][status-2]][site-2] | [![Vercel][vercel-badge]][deploy-2] | [![commit][commit-badge-2]][commit-link-2] | [![ci][ci-badge-2]][ci-link-2] |
+| 3  | 作品集网站 [^3] | [![在线状态][status-3]][site-3] | [![Vercel][vercel-badge]][deploy-3] | [![commit][commit-badge-3]][commit-link-3] | [![ci][ci-badge-3]][ci-link-3] |
 
 [^1]: https://mcenahle.com
 [^2]: https://d.mcenahle.com
 [^3]: https://portfolio.mcenahle.com
+
+<!-- 网站 -->
+[site-1]: https://mcenahle.com
+[site-2]: https://d.mcenahle.com
+[site-3]: https://portfolio.mcenahle.com
+
+<!-- 在线状态 -->
+[status-1]: https://img.shields.io/website?url=https%3A%2F%2Fmcenahle.com
+[status-2]: https://img.shields.io/website?url=https%3A%2F%2Fd.mcenahle.com
+[status-3]: https://img.shields.io/website?url=https%3A%2F%2Fportfolio.mcenahle.com
+
+<!-- 部署平台 -->
+[vercel-badge]: https://img.shields.io/badge/Vercel-000?logo=vercel
+
+[deploy-1]: https://hope-vuepress.vercel.app/
+[deploy-2]: https://plume-vuepress.vercel.app/
+[deploy-3]: https://portfolio-site-virid-rho.vercel.app/
+
+<!-- Commit -->
+[commit-badge-1]: https://img.shields.io/github/last-commit/mcenahle/hope-vuepress/main
+[commit-badge-2]: https://img.shields.io/github/last-commit/mcenahle/plume-vuepress/main
+[commit-badge-3]: https://img.shields.io/github/last-commit/mcenahle/portfolio-site/main
+
+[commit-link-1]: https://github.com/mcenahle/hope-vuepress/commits/main/
+[commit-link-2]: https://github.com/mcenahle/plume-vuepress/commits/main/
+[commit-link-3]: https://github.com/mcenahle/portfolio-site/commits/main/
+
+<!-- CI -->
+[ci-badge-1]: https://img.shields.io/github/actions/workflow/status/mcenahle/hope-vuepress/check.yml
+[ci-badge-2]: https://img.shields.io/github/actions/workflow/status/mcenahle/plume-vuepress/check.yml
+[ci-badge-3]: https://img.shields.io/github/actions/workflow/status/mcenahle/portfolio-site/check.yml
+
+[ci-link-1]: https://github.com/mcenahle/hope-vuepress/actions
+[ci-link-2]: https://github.com/mcenahle/plume-vuepress/actions
+[ci-link-3]: https://github.com/mcenahle/portfolio-site/actions
 
 （<a href="#" onclick="location.reload(); return false;">::material-symbols:refresh-rounded:: 刷新页面</a> 以查看最新状态。）
