@@ -14,6 +14,10 @@ actions:
     icon: lightbulb
     link: ./me
     type: primary
+
+  - text: 所有静态网站状态
+    icon: grommet-icons:status-good
+    link: ./status/
 copyright: Copyright © 2026 mcenahle
 footer: mcenahle.com | <img src="https://mcenahle.cn/resources/Not%20By%20AI/Written%20By%20Human/_SVG/Written-By-Human-Not-By-AI-Badge-white.svg" alt="Written By Human Badge" width="70">
 ---
