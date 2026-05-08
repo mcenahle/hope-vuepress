@@ -11,4 +11,4 @@ sidebar: false
 | 2  | 文档网站  | [https://d.mcenahle.com](https://d.mcenahle.com) |     ![在线](https://img.shields.io/website?url=https%3A%2F%2Fd.mcenahle.com)     | ![日期](https://img.shields.io/github/last-commit/mcenahle/plume-vuepress/main) | ![状态](https://img.shields.io/github/actions/workflow/status/mcenahle/plume-vuepress/check.yml) |
 | 3  | 作品集网站 | [https://portfolio.mcenahle.com](https://portfolio.mcenahle.com) | ![在线](https://img.shields.io/website?url=https%3A%2F%2Fportfolio.mcenahle.com) | ![日期](https://img.shields.io/github/last-commit/mcenahle/portfolio-site/main) | ![状态](https://img.shields.io/github/actions/workflow/status/mcenahle/portfolio-site/check.yml) |
 
-（[::material-symbols:refresh-rounded:: 刷新页面](/status/) 以查看最新状态。）
+（[::material-symbols:refresh-rounded:: 刷新页面](/status/index.html) 以查看最新状态。）
