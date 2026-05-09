@@ -10,16 +10,16 @@ order: 2
 
 自从 2026 年 4 月 17 日以来，本人使用新版的提交信息。具体规范如下表所示。
 
-|类型|       用途       |
-|:--:|:--------------:|
-|feat|      新功能       |
-|fix|       修复       |
-|docs|       文档       |
-|style|   样式（不影响逻辑）    |
-|refactor|       重构       |
-|ci|     CI/CD      |
-|revert| 回退更改 [^revert] |
-|chore|      其它项目      |
+|    类型    |       用途       |
+|:--------:|:--------------:|
+|   feat   |      新功能       |
+|   fix    |       修复       |
+|   docs   |       文档       |
+|  style   |   样式（不影响逻辑）    |
+| refactor |       重构       |
+|    ci    |     CI/CD      |
+|  revert  | 回退更改 [^revert] |
+|  chore   |      其它项目      |
 
 ::: caution 错误提交信息
 1. ::mingcute:close-fill:: 新增 example 页面（path/to/example）
