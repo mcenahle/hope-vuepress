@@ -24,7 +24,23 @@ export default hopeTheme({
     docsDir: "src",
 
     // 导航栏
-    navbar,
+    navbar: [
+        "/",
+        "/me",
+        "/my/",
+        {
+            text: "我的爱好",
+            icon: "mdi:heart",
+            children: ["coding-standards/", "/math/", "/status/"],
+        },
+        "resources/",
+        "/friendslink",
+        {
+            text: "个人成长记录",
+            icon: "mingcute:web-fill",
+            link: "https://mcenahle.cn/",
+        },
+    ],
 
     // 侧边栏
     sidebar,
