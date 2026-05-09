@@ -22,12 +22,12 @@ export default defineUserConfig({
         ...(isDev
             ? {
               https: {
-                key: fs.readFileSync('./cert/mcenahle.page-key.pem'),
-                cert: fs.readFileSync('./cert/mcenahle.page.pem'),
+                key: fs.readFileSync('./cert/mcenahle.edu.cn+2-key.pem'),
+                cert: fs.readFileSync('./cert/mcenahle.edu.cn+2.pem'),
               },
             }
             : {}),
-        allowedHosts: ['mcenahle.page']
+        allowedHosts: ['mcenahle.edu.cn', '127.0.0.1']
       }
     }
   }),
