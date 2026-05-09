@@ -44,4 +44,14 @@ export default sidebar({
             children: "structure",
         },
     ],
+    "/site-affairs-documents/": [
+        {
+            text: "2026年站务文件",
+            icon: "formkit:file",
+            prefix: "",
+            collapsible: true,
+            expanded: true,
+            children: "structure",
+        },
+    ],
 });
