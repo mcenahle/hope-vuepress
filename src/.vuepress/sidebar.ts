@@ -12,16 +12,19 @@ export default sidebar({
             children: "structure",
         },
         {
-            text: "代码规范",
-            icon: "material-symbols:code",
-            prefix: "coding-standards/",
-            link: "coding-standards/",
-            children: ["github-commit-signature", "write-commit-message"],
-        },
-        {
             text: "上海师范大学",
             icon: "mdi:university",
             link: "https://www.shnu.edu.cn",
+        },
+    ],
+    "/coding-standards/": [
+        {
+            text: "代码规范",
+            icon: "material-symbols:code",
+            prefix: "",
+            collapsible: true,
+            expanded: true,
+            children: ["github-commit-signature", "write-commit-message"],
         },
     ],
     "/math/": [
