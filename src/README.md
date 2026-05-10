@@ -15,7 +15,7 @@ actions:
     link: ./me
     type: primary
 
-  - text: 所有静态网站状态
+  - text: 所有 *.mcenahle.com 网站状态
     icon: grommet-icons:status-good
     link: ./status/
 copyright: Copyright © 2026 mcenahle
