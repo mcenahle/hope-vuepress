@@ -5,12 +5,12 @@ icon: grommet-icons:status-good
 sidebar: false
 ---
 
-| 序号 |       网站名称       |            运行状态             |                 部署平台                  |                上次 commit 日期                |            上次 ci 状态            |
-|:--:|:----------------:|:---------------------------:|:-------------------------------------:|:------------------------------------------:|:------------------------------:|
-| 1  |     主站 [^1]      | [![在线状态][status-1]][site-1] |  [![Vercel][vercel-badge]][deploy-1]  | [![commit][commit-badge-1]][commit-link-1] | [![ci][ci-badge-1]][ci-link-1] |
-| 2  |    文档网站 [^2]     | [![在线状态][status-2]][site-2] |  [![Vercel][vercel-badge]][deploy-2]  | [![commit][commit-badge-2]][commit-link-2] | [![ci][ci-badge-2]][ci-link-2] |
-| 3  |    作品集网站 [^3]    | [![在线状态][status-3]][site-3] |  [![Vercel][vercel-badge]][deploy-3]  | [![commit][commit-badge-3]][commit-link-3] | [![ci][ci-badge-3]][ci-link-3] |
-| 4  | twikoo 服务网站 [^4] | [![在线状态][status-4]][site-4] | [![Netlify][netlify-badge]][deploy-4] |                   不监控该项                    |             不监控该项              |
+| 序号 |       网站名称       |            运行状态             |                部署平台                 |                上次 commit 日期                |            上次 ci 状态            |
+|:--:|:----------------:|:---------------------------:|:-----------------------------------:|:------------------------------------------:|:------------------------------:|
+| 1  |     主站 [^1]      | [![在线状态][status-1]][site-1] | [![Vercel][vercel-badge]][deploy-1] | [![commit][commit-badge-1]][commit-link-1] | [![ci][ci-badge-1]][ci-link-1] |
+| 2  |    文档网站 [^2]     | [![在线状态][status-2]][site-2] | [![Vercel][vercel-badge]][deploy-2] | [![commit][commit-badge-2]][commit-link-2] | [![ci][ci-badge-2]][ci-link-2] |
+| 3  |    作品集网站 [^3]    | [![在线状态][status-3]][site-3] | [![Vercel][vercel-badge]][deploy-3] | [![commit][commit-badge-3]][commit-link-3] | [![ci][ci-badge-3]][ci-link-3] |
+| 4  | twikoo 服务网站 [^4] | [![在线状态][status-4]][site-4] |               本地香港服务器               |                   不监控该项                    |             不监控该项              |
 
 [^1]: https://mcenahle.com
 [^2]: https://d.mcenahle.com
@@ -36,7 +36,6 @@ sidebar: false
 [deploy-1]: https://hope-vuepress.vercel.app/
 [deploy-2]: https://plume-vuepress.vercel.app/
 [deploy-3]: https://portfolio-site-virid-rho.vercel.app/
-[deploy-4]: https://silver-malasada-d54aca.netlify.app/
 
 <!-- Commit -->
 [commit-badge-1]: https://img.shields.io/github/last-commit/mcenahle/hope-vuepress/main
