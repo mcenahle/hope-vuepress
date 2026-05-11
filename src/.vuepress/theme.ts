@@ -31,9 +31,8 @@ export default hopeTheme({
         {
             text: "我的爱好",
             icon: "mdi:heart",
-            children: ["coding-standards/", "/math/", "/status/"],
+            children: ["coding-standards/", "/math/", "/status/", "resources/"],
         },
-        "resources/",
         "/friendslink",
         {
             text: "个人成长记录",
