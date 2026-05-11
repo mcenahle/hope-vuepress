@@ -22,6 +22,9 @@ copyright: Copyright © 2026 mcenahle
 footer: mcenahle.com | <img src="https://mcenahle.cn/resources/Not%20By%20AI/Written%20By%20Human/_SVG/Written-By-Human-Not-By-AI-Badge-white.svg" alt="Written By Human Badge" width="70">
 ---
 
+:::important 护士节快乐！！
+:::
+
 这是我的个人主页。
 
 我平时就喜欢搞搞网站什么的，但不是“理工男”哦。
