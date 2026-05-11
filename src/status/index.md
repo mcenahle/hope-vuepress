@@ -62,6 +62,6 @@ sidebar: false
 
 1. 部署平台：![dev-deploy-badge](https://img.shields.io/badge/Cloudflare-000?logo=cloudflare)
 2. 最近一次 commit：![dev-commit-badge](https://img.shields.io/github/last-commit/mcenahle/hope-vuepress/dev)
-   :::
+:::
 
 （<a href="#" onclick="location.reload(); return false;">::material-symbols:refresh-rounded:: 刷新页面</a> 以查看最新状态。）
