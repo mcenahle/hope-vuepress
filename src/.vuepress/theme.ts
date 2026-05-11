@@ -23,6 +23,8 @@ export default hopeTheme({
 
     docsDir: "src",
 
+    docsBranch: "dev",
+
     // 导航栏
     navbar: [
         "/",
