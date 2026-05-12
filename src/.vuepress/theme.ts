@@ -47,7 +47,7 @@ export default hopeTheme({
     sidebar,
 
     // 页脚
-    footer: "mcenahle.com | <img src=\"https://mcenahle.cn/resources/Not%20By%20AI/Written%20By%20Human/_SVG/Written-By-Human-Not-By-AI-Badge-white.svg\" alt=\"Written By Human Badge\" width=\"70\">",
+    footer: 'mcenahle.com | 当前稳定版本：<a href="https://github.com/mcenahle/hope-vuepress/releases/latest" target="_blank"><img src="https://img.shields.io/github/v/release/mcenahle/hope-vuepress?logo=github" alt="Latest release" style="vertical-align:middle;"></a>',
     displayFooter: true,
 
     // 加密配置
