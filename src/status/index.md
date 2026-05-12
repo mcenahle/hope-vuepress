@@ -55,13 +55,4 @@ sidebar: false
 [ci-link-2]: https://github.com/mcenahle/plume-vuepress/actions
 [ci-link-3]: https://github.com/mcenahle/portfolio-site/actions
 
-:::info
-自 2026 年 5 月 11 日 18:41 起，本网站采用 `main`（生产分支）与 `dev`（开发分支）并行维护的策略。
-
-其中，上表展示的是 `main` 分支对应的部署平台及最近一次 commit 信息；而 `dev` 分支的状态如下：
-
-1. 部署平台：![dev-deploy-badge](https://img.shields.io/badge/Cloudflare-000?logo=cloudflare)
-2. 最近一次 commit：![dev-commit-badge](https://img.shields.io/github/last-commit/mcenahle/hope-vuepress/dev)
-:::
-
 （<a href="#" onclick="location.reload(); return false;">::material-symbols:refresh-rounded:: 刷新页面</a> 以查看最新状态。）
