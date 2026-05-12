@@ -8,19 +8,6 @@ order: 2
 > [!info]
 > 本规范于 2026 年 4 月 17 日 制定，5 月 11 日新增规范。
 
-::: important 5 月 11 日新增：提交信息需标明所属分支
-
-当仓库存在多个长期维护分支（例如 `main` 与 `dev`）时（[例如本仓库](https://github.com/mcenahle/hope-vuepress/branches/all)），为避免误提交、误部署或混淆 commit 所属环境，提交信息需在开头标明所属分支，并使用英文中括号包裹。
-
-例如：
-
-::mingcute:close-fill:: 在导航栏中，将“图标资源”迁移至“我的爱好”
-
-::mingcute:close-fill:: style: 在导航栏中，将“图标资源”迁移至“我的爱好”
-
-::mingcute:check-fill:: [dev] style: 在导航栏中，将“图标资源”迁移至“我的爱好”
-:::
-
 自从 2026 年 4 月 17 日以来，本人使用新版的提交信息。具体规范如下表所示。
 
 |    类型    |       用途       |
