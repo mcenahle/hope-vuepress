@@ -24,7 +24,7 @@ export default sidebar({
             prefix: "",
             collapsible: true,
             expanded: true,
-            children: ["github-commit-signature", "write-commit-message"],
+            children: ["github-commit-signature", "write-commit-message", "pull-request"],
         },
     ],
     "/math/": [
