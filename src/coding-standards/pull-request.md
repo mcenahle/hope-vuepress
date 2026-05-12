@@ -12,7 +12,7 @@ PR 必须：
 - 基于 [dev 分支](https://github.com/mcenahle/hope-vuepress/tree/dev) 创建
 - 通过所有 CI checks
 - 使用 [verified commits](/coding-standards/github-commit-signature.html)
-- 使用普通 merge strategy
+- 使用普通 `Rebase and merge` strategy
 - 不允许直接 push main
 
 PR 消息，即将历次 commit 的消息进行整合，但内容可以适当缩短。[例如](https://github.com/mcenahle/hope-vuepress/pull/3)：
