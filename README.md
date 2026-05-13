@@ -1,24 +1,17 @@
 # Development Workflow
 
-This repository uses a dual-branch workflow:
+This repository uses a single branch workflow:
 
-- `main` → production branch
-- `dev` → development branch
+- `main` → Development and production branch
 
 ## Workflow
 
 ```text
-dev
+main
 ↓
 commit
 ↓
 push
-↓
-Cloudflare Pages preview
-↓
-pull request
-↓
-merge into main
 ↓
 production deployment
 ```
@@ -26,12 +19,10 @@ production deployment
 ## Rules
 
 - Do not use `git push --force` unless absolutely necessary.
-- Commit messages should include the branch name when using multi-branch development.
-- Always check preview deployments before merging into `main`.
+- Commit messages should include the diffs in each of the modified files.
 
 ## Deployments
 
 |  Branch  |       Environment       |
 |:--------:|:-----------------------:|
-|  `main`  |       Production        |
-|  `dev`   |  Preview / Development  |
+|  `main`  |  Development and production  |
