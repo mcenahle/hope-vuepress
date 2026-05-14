@@ -14,3 +14,10 @@ order: 4
 - Do not allow bypassing the above settings. _(The above settings will apply to administrators and custom roles with the "bypass branch protections" permission.)_
 - Force pushes are forbidden. _(Running `git push --force` command will be rejected.)_
 - Branch deletion is forbidden.
+
+::: note 翻译
+* 要求提交签名（推送到匹配分支的提交必须具有已验证的签名）；
+* 不允许绕过上述设置（上述设置将适用于具有“绕过分支保护”权限的管理员和自定义角色）；
+* 禁止强制推送（运行 `git push --force` 命令将被拒绝）；
+* 禁止删除分支。
+:::
