@@ -27,6 +27,16 @@ export default sidebar({
             children: "structure",
         },
     ],
+    "/edu/": [
+        {
+            text: "教育学",
+            icon: "mdi:education-outline",
+            prefix: "",
+            collapsible: true,
+            expanded: true,
+            children: "structure",
+        },
+    ],
     "/math/": [
         {
             text: "数学",
