@@ -1,8 +1,8 @@
 # Development Workflow
 
-This repository uses a single branch workflow:
+This repository uses a single-branch workflow:
 
-- `main` → Development and production branch
+- `main` → Used for both development and production
 
 ## Workflow
 
@@ -13,7 +13,7 @@ commit
 ↓
 push
 ↓
-production deployment
+automatic production deployment
 ```
 
 ## Rules
@@ -23,6 +23,6 @@ production deployment
 
 ## Deployments
 
-|  Branch  |       Environment       |
-|:--------:|:-----------------------:|
-|  `main`  |  Development and production  |
+| Branch |        Environment         |
+|:------:|:--------------------------:|
+| `main` | Development and production |
