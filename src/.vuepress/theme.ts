@@ -33,7 +33,7 @@ export default hopeTheme({
         {
             text: "我的爱好",
             icon: "mdi:heart",
-            children: ["coding-standards/", "/math/", "/status/", "resources/"],
+            children: ["coding-standards/", "edu/", "/math/", "/status/", "resources/"],
         },
         "/friendslink",
         {
