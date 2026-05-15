@@ -24,32 +24,32 @@ sidebar: false
 [site-4]: https://twikoo.mcenahle.com
 
 <!-- 在线状态 -->
-[status-1]: https://img.shields.io/website?url=https%3A%2F%2Fmcenahle.com
-[status-2]: https://img.shields.io/website?url=https%3A%2F%2Fd.mcenahle.com
-[status-3]: https://img.shields.io/website?url=https%3A%2F%2Fportfolio.mcenahle.com
-[status-4]: https://img.shields.io/website?url=https%3A%2F%2Ftwikoo.mcenahle.com
+[status-1]: https://img.shields.io/website?url=https%3A%2F%2Fmcenahle.com&style=flat-square
+[status-2]: https://img.shields.io/website?url=https%3A%2F%2Fd.mcenahle.com&style=flat-square
+[status-3]: https://img.shields.io/website?url=https%3A%2F%2Fportfolio.mcenahle.com&style=flat-square
+[status-4]: https://img.shields.io/website?url=https%3A%2F%2Ftwikoo.mcenahle.com&style=flat-square
 
 <!-- 部署平台 -->
-[vercel-badge]: https://img.shields.io/badge/Vercel-000?logo=vercel
-[netlify-badge]: https://img.shields.io/badge/Netlify-000?logo=netlify
+[vercel-badge]: https://img.shields.io/badge/Vercel-000?logo=vercel&style=flat-square
+[netlify-badge]: https://img.shields.io/badge/Netlify-000?logo=netlify&style=flat-square
 
 [deploy-1]: https://hope-vuepress.vercel.app/
 [deploy-2]: https://plume-vuepress.vercel.app/
 [deploy-3]: https://portfolio-site-virid-rho.vercel.app/
 
 <!-- Commit -->
-[commit-badge-1]: https://img.shields.io/github/last-commit/mcenahle/hope-vuepress/main
-[commit-badge-2]: https://img.shields.io/github/last-commit/mcenahle/plume-vuepress/main
-[commit-badge-3]: https://img.shields.io/github/last-commit/mcenahle/portfolio-site/main
+[commit-badge-1]: https://img.shields.io/github/last-commit/mcenahle/hope-vuepress/main?style=flat-square
+[commit-badge-2]: https://img.shields.io/github/last-commit/mcenahle/plume-vuepress/main?style=flat-square
+[commit-badge-3]: https://img.shields.io/github/last-commit/mcenahle/portfolio-site/main?style=flat-square
 
 [commit-link-1]: https://github.com/mcenahle/hope-vuepress/commits/main/
 [commit-link-2]: https://github.com/mcenahle/plume-vuepress/commits/main/
 [commit-link-3]: https://github.com/mcenahle/portfolio-site/commits/main/
 
 <!-- CI -->
-[ci-badge-1]: https://img.shields.io/github/actions/workflow/status/mcenahle/hope-vuepress/check.yml
-[ci-badge-2]: https://img.shields.io/github/actions/workflow/status/mcenahle/plume-vuepress/check.yml
-[ci-badge-3]: https://img.shields.io/github/actions/workflow/status/mcenahle/portfolio-site/check.yml
+[ci-badge-1]: https://img.shields.io/github/actions/workflow/status/mcenahle/hope-vuepress/check.yml?style=flat-square
+[ci-badge-2]: https://img.shields.io/github/actions/workflow/status/mcenahle/plume-vuepress/check.yml?style=flat-square
+[ci-badge-3]: https://img.shields.io/github/actions/workflow/status/mcenahle/portfolio-site/check.yml?style=flat-square
 
 [ci-link-1]: https://github.com/mcenahle/hope-vuepress/actions
 [ci-link-2]: https://github.com/mcenahle/plume-vuepress/actions
