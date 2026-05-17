@@ -102,8 +102,7 @@ body,
 h1,
 body,
 .vp-portfolio-info {
-  font-family:
-          "Public Sans", "Inter", "SourceHanSansCN-Regular" !important;
+  font-family: "Inter", "SourceHanSansCN-Regular" !important;
 }
 
 code {
@@ -116,38 +115,6 @@ code {
 
 .vp-decrypt-submit {
   color: white;
-}
-
-@font-face {
-  font-family: "Public Sans";
-  src: url("/fonts/PublicSans-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Public Sans";
-  src: url("/fonts/PublicSans-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Public Sans";
-  src: url("/fonts/PublicSans-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Public Sans";
-  src: url("/fonts/PublicSans-BoldItalic.woff2") format("woff2");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
 }
 
 /*body::before {
