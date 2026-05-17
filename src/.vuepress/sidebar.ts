@@ -37,6 +37,16 @@ export default sidebar({
             children: "structure",
         },
     ],
+    "/med/": [
+        {
+            text: "个人医学知识探索",
+            icon: "jam:medical",
+            prefix: "",
+            collapsible: true,
+            expanded: true,
+            children: "structure",
+        },
+    ],
     "/edu/": [
         {
             text: "教育学",
