@@ -27,6 +27,16 @@ export default sidebar({
             children: "structure",
         },
     ],
+    "/apps/": [
+        {
+            text: "个人应用程序",
+            icon: "tdesign:app",
+            prefix: "",
+            collapsible: true,
+            expanded: true,
+            children: "structure",
+        },
+    ],
     "/edu/": [
         {
             text: "教育学",
