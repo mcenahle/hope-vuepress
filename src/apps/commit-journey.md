@@ -24,6 +24,10 @@ CommitJourney 是一个用于导出 Git 历史记录与每日提交统计信息�
 
 可在 [此处](https://github.com/mcenahle/CommitJourney/releases/latest) 下载最新版本。
 
+::: danger 丢失的版本
+`v0.1.1` 版本因为不可更改的发布流程问题而被淘汰，且不再可下载纯净的原版。`v0.1.1-hotfix` 修补程序版本已经取代它。
+:::
+
 ## 软件截图
 
-![本软件（v0.1.0）运行截图](/images/LAPTOP-QBI12I8_mcenahle_20260517_10-44-31.jpg)
+![本软件（v0.1.1-hotfix）运行截图](/images/LAPTOP-QBI12I8_mcenahle_20260518_11-22-57.jpg)
