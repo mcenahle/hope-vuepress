@@ -28,31 +28,31 @@ jobs:
       - name: Build
         run: pnpm run docs:build
 
-    compatibility:
-        runs-on: ubuntu-latest
+  compatibility:
+    runs-on: ubuntu-latest
 
-        strategy:
-          matrix:
-            node-version: [ 18, 20, 22 ]
+    strategy:
+      matrix:
+        node-version: [18, 20, 22]
 
-        continue-on-error: true
+    continue-on-error: true
 
-        steps:
-          - uses: actions/checkout@v5
+    steps:
+      - uses: actions/checkout@v5
 
-          - name: Setup pnpm
-            uses: pnpm/action-setup@v6.0.5
-            with:
-              version: 9
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6.0.5
+        with:
+          version: 9
 
-          - name: Setup Node
-            uses: actions/setup-node@v5
-            with:
-              node-version: ${{ matrix.node-version }}
-              cache: 'pnpm'
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
 
-          - name: Install deps
-            run: pnpm install
+      - name: Install deps
+        run: pnpm install
 
-          - name: Test build
-            run: pnpm run docs:build
+      - name: Test build
+        run: pnpm run docs:build
