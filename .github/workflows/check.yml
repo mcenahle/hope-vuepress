@@ -85,16 +85,16 @@ jobs:
           echo "📊 Website Statistics"
           echo "===================="
 
-          MD_COUNT=$(find . -name "*.md" | wc -l)
+          MD_COUNT=$(find src -name "*.md" | wc -l)
           echo "Markdown files: $MD_COUNT"
 
-          HTML_COUNT=$(find docs/.vuepress/dist -name "*.html" | wc -l)
+          HTML_COUNT=$(find src/.vuepress/dist -name "*.html" | wc -l)
           echo "Generated HTML pages: $HTML_COUNT"
 
-          IMG_COUNT=$(find . \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.webp" -o -name "*.gif" \) | wc -l)
+          IMG_COUNT=$(find src \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.webp" -o -name "*.gif" \) | wc -l)
           echo "Images: $IMG_COUNT"
 
-          DIST_SIZE=$(du -sh docs/.vuepress/dist | cut -f1)
+          DIST_SIZE=$(du -sh src/.vuepress/dist | cut -f1)
           echo "Build size: $DIST_SIZE"
 
           echo "✅ Statistics completed"
