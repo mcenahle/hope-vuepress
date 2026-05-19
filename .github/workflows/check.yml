@@ -56,3 +56,45 @@ jobs:
 
       - name: Test build
         run: pnpm run docs:build
+
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6.0.5
+        with:
+          version: 9
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install deps
+        run: pnpm install
+
+      - name: Build site
+        run: pnpm run docs:build
+
+      - name: Website statistics
+        run: |
+          echo "📊 Website Statistics"
+          echo "===================="
+
+          MD_COUNT=$(find . -name "*.md" | wc -l)
+          echo "Markdown files: $MD_COUNT"
+
+          HTML_COUNT=$(find docs/.vuepress/dist -name "*.html" | wc -l)
+          echo "Generated HTML pages: $HTML_COUNT"
+
+          IMG_COUNT=$(find . \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.webp" -o -name "*.gif" \) | wc -l)
+          echo "Images: $IMG_COUNT"
+
+          DIST_SIZE=$(du -sh docs/.vuepress/dist | cut -f1)
+          echo "Build size: $DIST_SIZE"
+
+          echo "✅ Statistics completed"
