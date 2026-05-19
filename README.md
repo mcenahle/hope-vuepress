@@ -31,4 +31,4 @@ automatic production deployment
 
 `mcenahle.com` is scheduled to migrate to `mcenahle.page` before June 22, 2026.
 
-For details, visit: https://mcenahle.cn/coding-standards/migration-to-mcenahle-page.html
+For details, visit: https://mcenahle.com/coding-standards/migration-to-mcenahle-page.html
