@@ -25,25 +25,10 @@ export default hopeTheme({
 
     docsBranch: "main",
 
-    // 导航栏
-    navbar: [
-        "/",
-        "/me",
-        "/my/",
-        {
-            text: "我的爱好",
-            icon: "mdi:heart",
-            children: ["coding-standards/", "edu/", "med/", "/status/", "resources/"],
-        },
-        "/friendslink",
-        {
-            text: "个人成长记录",
-            icon: "mingcute:web-fill",
-            link: "https://mcenahle.cn/",
-        },
-    ],
+    // 导航栏 - 去 navbar.ts 进行设置
+    navbar,
 
-    // 侧边栏
+    // 侧边栏 - 去 sidebar.ts 进行设置
     sidebar,
 
     // 页脚
