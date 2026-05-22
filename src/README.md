@@ -27,6 +27,10 @@ footer: <span style="background:#94cdff; color:white;"><svg xmlns="http://www.w3
 
 ::ic:round-laptop:: 我平时就喜欢搞搞网站什么的，但不是“理工男”哦。
 
-![地区](https://img.shields.io/badge/地区-中国·上海-0A66C2) ![学历](https://img.shields.io/badge/学历-大专-4CAF50) ![专业](https://img.shields.io/badge/专业-广告设计-purple) ![IDE](https://img.shields.io/badge/IDE-IDEA-F57C00?logo=intellijidea)
+![地区](https://img.shields.io/badge/地区-中国·上海-0A66C2?style=flat-square) ![学历](https://img.shields.io/badge/学历-大专-4CAF50?style=flat-square) ![专业](https://img.shields.io/badge/专业-广告设计-purple?style=flat-square)
+![IDE](https://img.shields.io/badge/IDE-IDEA-F57C00?logo=intellijidea&style=flat-square)
+![兴趣](https://img.shields.io/badge/兴趣-网站开发-6D5CC1?style=flat-square) ![兴趣](https://img.shields.io/badge/兴趣-医学知识-32AEEC?style=flat-square)
 
+:::info 所有站务文件列表
 [::bx:file:: 查看2026年发布过的站务文件。](/site-affairs-documents/)
+:::
