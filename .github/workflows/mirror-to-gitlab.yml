@@ -22,5 +22,5 @@ jobs:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         run: |
           git remote add gitlab https://oauth2:${GITLAB_TOKEN}@gitlab.com/mcenahle/hope-vuepress.git
-          git push gitlab --all
-          git push gitlab --tags
+          git push gitlab --force --all
+          git push gitlab --force --tags
