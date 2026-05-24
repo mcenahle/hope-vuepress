@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-    hostname: "https://mcenahle.page",
+    hostname: "https://mcenahle.com",
     fullscreen: true,
     print: true,
     darkmode: "switch",
