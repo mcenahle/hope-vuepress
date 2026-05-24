@@ -27,5 +27,8 @@ jobs:
       - name: Push to Gitee
         run: |
           git remote add gitee git@gitee.com:mcenahle/hope-vuepress.git
-          git fetch origin main:main page:page
-          GIT_SSH_COMMAND="ssh -i ~/.ssh/gitee_actions" git push gitee main page --force
+
+          GIT_SSH_COMMAND="ssh -i ~/.ssh/gitee_actions" git push gitee \
+            refs/remotes/origin/main:refs/heads/main \
+            refs/remotes/origin/page:refs/heads/page \
+            --force
