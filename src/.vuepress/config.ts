@@ -14,6 +14,10 @@ export default defineUserConfig({
 
   theme,
 
+  head: [
+    ['script', { src: '/js/custom.js' }]
+  ],
+
   bundler: viteBundler({
     viteOptions: {
       server: {

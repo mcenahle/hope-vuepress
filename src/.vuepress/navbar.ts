@@ -1,15 +1,18 @@
 import {navbar} from "vuepress-theme-hope";
-// 已被迁移到 theme.ts
+
 export default navbar([
     "/",
     "/me",
     "/my/",
-    "coding-standards/",
-    "/math/",
+    {
+        text: "我的爱好",
+        icon: "mdi:heart",
+        children: ["coding-standards/", "edu/", "med/", "/status/", "resources/"],
+    },
+    "/friendslink",
     {
         text: "个人成长记录",
         icon: "mingcute:web-fill",
         link: "https://mcenahle.cn/",
     },
-    "/friendslink",
 ]);

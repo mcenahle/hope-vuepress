@@ -4,3 +4,30 @@
   background: #7DC4FF;
   color: white;
 }
+
+.external-link-icon [vp-content] a[href*="://"]:not(.no-external-link-icon)::after,
+.external-link-icon [vp-content] a[target="_blank"]:not(.no-external-link-icon)::after,
+.external-link-icon .external-link:not(.no-external-link-icon)::after {
+  content: "";
+  display: inline-block;
+
+  width: 0.9em;
+  height: 0.9em;
+  margin-left: 0.18em;
+
+  vertical-align: -0.1em;
+
+  background-color: currentColor;
+
+  -webkit-mask-image: url("/icons/external-link.svg");
+  mask-image: url("/icons/external-link.svg");
+
+  -webkit-mask-size: contain;
+  mask-size: contain;
+
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+
+  -webkit-mask-position: center;
+  mask-position: center;
+}
