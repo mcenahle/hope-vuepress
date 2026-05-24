@@ -5,4 +5,4 @@ icon: material-symbols:group
 order: 3
 ---
 
-共青团员（2025-12-21起）。
+::mdi:people-check:: 政治面貌：共青团员；入团时间：2025-12-21。
