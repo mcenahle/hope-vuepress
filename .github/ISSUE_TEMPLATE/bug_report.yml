@@ -1,9 +1,29 @@
 name: Bug Report
 description: 报告网站问题
-title: "[Bug]: "
-labels: ["bug"]
-
+title: '[Bug]: '
+labels:
+  - bug
 body:
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 请完成以下的确认：
+      options:
+        - label: 我确认，此问题不在已提交的 issues 列表之中
+          required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: 你是在哪个浏览器中发现的问题？
+      description: 可以选择多项。
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Edge
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
@@ -11,9 +31,15 @@ body:
       placeholder: 发生了什么？
     validations:
       required: true
-
-  - type: input
-    id: browser
+  - type: textarea
+    id: aim
     attributes:
-      label: 浏览器
-      placeholder: Chrome / Safari / Edge
+      label: 预期目标
+      placeholder: 你的预期是应该变成什么？
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >-
+        This template was generated with [Issue Forms
+        Creator](https://issue-forms-creator.netlify.app)
