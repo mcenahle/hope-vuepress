@@ -5,3 +5,5 @@ src/.vuepress/.temp/
 src/.vuepress/dist/
 cert/
 commits-status/
+commits-per-day.csv
+git-log.txt
