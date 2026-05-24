@@ -1,0 +1,30 @@
+name: Mirror to Gitee
+
+on:
+  push:
+    branches:
+      - main
+      - page
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup SSH key for Gitee
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.GITEE_PRIVATE_KEY }}" > ~/.ssh/gitee_actions
+          chmod 600 ~/.ssh/gitee_actions
+          ssh-keyscan gitee.com >> ~/.ssh/known_hosts
+
+      - name: Push to Gitee
+        run: |
+          git remote add gitee git@gitee.com:mcenahle/hope-vuepress.git
+          GIT_SSH_COMMAND="ssh -i ~/.ssh/gitee_actions" git push gitee main page --force
