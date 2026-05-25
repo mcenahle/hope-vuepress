@@ -1,0 +1,30 @@
+name: 文字更改
+description: 对相关的文字进行更改
+title: '[Doc]: '
+body:
+  - type: checkboxes
+    id: check
+    attributes:
+      label: 请完成以下的确认：
+      description: 必须完成所有的确认才能继续。
+      options:
+        - label: ' 我确认，此问题不在已提交的 issues 列表之中'
+          required: true
+  - type: input
+    id: website-link
+    attributes:
+      label: 文字出错的网站链接：
+      placeholder: https://mcenahle.com/path/to/file.html
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 问题描述：
+      placeholder: 文字有什么问题？
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >-
+        This template was generated with [Issue Forms
+        Creator](https://issue-forms-creator.netlify.app)
