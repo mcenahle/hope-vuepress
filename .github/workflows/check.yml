@@ -28,6 +28,9 @@ jobs:
       - name: Build
         run: pnpm run docs:build
 
+      - name: Markdown lint
+        run: pnpm exec markdownlint-cli2 "**/*.md"
+
   compatibility:
     runs-on: ubuntu-latest
 
@@ -76,9 +79,6 @@ jobs:
 
       - name: Install deps
         run: pnpm install
-
-      - name: Markdown lint
-        run: pnpm exec markdownlint-cli2 "**/*.md"
 
       - name: Build site
         run: pnpm run docs:build
