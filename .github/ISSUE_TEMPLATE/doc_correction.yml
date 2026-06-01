@@ -1,6 +1,6 @@
 name: 文字更改
 description: 对相关的文字进行更改
-title: '[Doc]: '
+title: "[Doc]: "
 body:
   - type: checkboxes
     id: check
@@ -8,7 +8,7 @@ body:
       label: 请完成以下的确认：
       description: 必须完成所有的确认才能继续。
       options:
-        - label: ' 我确认，此问题不在已提交的 issues 列表之中'
+        - label: " 我确认，此问题不在已提交的 issues 列表之中"
           required: true
   - type: input
     id: website-link
