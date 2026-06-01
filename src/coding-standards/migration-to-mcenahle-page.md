@@ -9,7 +9,7 @@ order: 5
 :::info 注释
 1. 为完善 [关于 mcenahle.com 网站变更域名的公告-mcenahle 站务文件-2026【3】号 ::ic:baseline-link::](/site-affairs-documents/2026-3.html)，制定本规范。
 2. 2026年5月20日，发现存在时间线问题，特此 [修正](https://github.com/mcenahle/hope-vuepress/commit/51730dcb57f3ff769236a80ae03918686e40ee6e)。
-3. 2026年6月1日，由于暑假开始日期彻底变成未知，特此修正。
+3. 2026年6月1日，由于暑假开始日期彻底变成未知，以及发现漏洞，特此修正。
 :::
 
 ## 关于 mcenahle.com 网站变更域名的规范
