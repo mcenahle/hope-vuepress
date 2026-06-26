@@ -26,9 +26,3 @@ automatic production deployment
 | Branch |        Environment         |
 |:------:|:--------------------------:|
 | `main` | Development and production |
-
-## Site migration
-
-`mcenahle.com` is scheduled to migrate to `mcenahle.page` before June 29, 2026.
-
-For details, visit: https://mcenahle.com/coding-standards/migration-to-mcenahle-page.html

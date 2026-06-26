@@ -7,7 +7,7 @@ bgImage: /images/渐变背景.jpg
 bgImageDark: /images/渐变背景.jpg
 bgImageStyle:
   background-attachment: fixed
-heroText: mcenahle.com
+heroText: hi.mcenahle.page
 tagline: 个人成长记录。
 actions:
   - text: 关于我

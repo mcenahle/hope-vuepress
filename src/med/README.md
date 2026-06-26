@@ -5,7 +5,7 @@ date: 2026-05-17
 icon: jam:medical
 category:
   - 医学
-footer: 非医疗建议。详见 https://mcenahle.com/med/。
+footer: 非医疗建议。详见 https://hi.mcenahle.page/med/。
 ---
 
 :::danger 注意

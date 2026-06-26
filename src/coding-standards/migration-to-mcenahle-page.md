@@ -6,6 +6,10 @@ icon: bx:file
 order: 5
 ---
 
+:::danger 本规范性文件已被停用
+由于 2026-06-26 00:02:03 注册了 `mcenahle.page`，因此本规范已执行完成。
+:::
+
 :::info 注释
 1. 为完善 [关于 mcenahle.com 网站变更域名的公告-mcenahle 站务文件-2026【3】号 ::ic:baseline-link::](/site-affairs-documents/2026-3.html)，制定本规范。
 2. 2026年5月20日，发现存在时间线问题，特此 [修正](https://github.com/mcenahle/hope-vuepress/commit/51730dcb57f3ff769236a80ae03918686e40ee6e)。

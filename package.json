@@ -1,7 +1,7 @@
 {
-  "name": "mcenahle-com",
+  "name": "hi-mcenahle-page",
   "description": "A project of vuepress-theme-hope",
-  "version": "1.2",
+  "version": "1.3",
   "license": "MIT",
   "type": "module",
   "scripts": {

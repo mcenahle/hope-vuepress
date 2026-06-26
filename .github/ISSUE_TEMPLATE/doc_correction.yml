@@ -14,7 +14,7 @@ body:
     id: website-link
     attributes:
       label: 文字出错的网站链接：
-      placeholder: https://mcenahle.com/path/to/file.html
+      placeholder: https://hi.mcenahle.page/path/to/file.html
     validations:
       required: true
   - type: textarea
