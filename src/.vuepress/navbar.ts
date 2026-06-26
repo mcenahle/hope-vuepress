@@ -15,4 +15,9 @@ export default navbar([
         icon: "mingcute:web-fill",
         link: "https://mcenahle.cn/",
     },
+    {
+        text: "电子邮件系统",
+        icon: "mdi:email-outline",
+        link: "https://mail.mcenahle.page/",
+    },
 ]);
